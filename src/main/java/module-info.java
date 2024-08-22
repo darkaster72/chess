@@ -9,6 +9,7 @@ module io.github.darkaster.chess {
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
     requires org.kordamp.ikonli.fontawesome;
+    requires java.desktop;
 
     opens io.github.darkaster.chess to javafx.fxml;
     exports io.github.darkaster.chess;
